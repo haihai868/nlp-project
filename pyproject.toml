@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "bitsandbytes>=0.49.0",
+    "google-genai>=1.56.0",
     "google-generativeai>=0.8.6",
     "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
@@ -15,6 +16,7 @@ dependencies = [
     "opendatasets>=0.1.22",
     "pandas>=2.3.3",
     "pyvi>=0.1.1",
+    "sacrebleu>=2.5.1",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
     "torch>=2.9.1",
