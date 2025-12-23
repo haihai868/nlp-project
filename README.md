@@ -46,3 +46,4 @@ pip install ipykernel jupyter matplotlib numpy opendatasets pandas scikit-learn 
 **Nếu muốn train lại từ đầu**
 
 - Chạy các file preprocess tương ứng cho 2 bài toán rồi chạy các cell 'transformer.ipynb', 'nlp-transformer-VLSP-v1-v2010c3d9978.ipynb' lần lượt.
+- Chú ý: data raw đã được tải sẵn, có thể tự tải lại nhưng phải cung cấp key kaggle
