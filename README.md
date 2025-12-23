@@ -19,7 +19,7 @@ python -m venv .venv
 
 .\.venv\Scripts\activate.bat    # CMD
 ```
-
+```
 uv sync
 
 ```
