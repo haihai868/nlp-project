@@ -11,6 +11,8 @@
 
 - Tạo và kích hoạt virtual environment:
 
+uv venv
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1   # PowerShell
@@ -18,14 +20,9 @@ python -m venv .venv
 .\.venv\Scripts\activate.bat    # CMD
 ```
 
-- Cập nhật `pip` và cài dependencies chính (tham khảo `pyproject.toml`):
+uv sync
 
-```powershell
-pip install --upgrade pip
-pip install ipykernel jupyter matplotlib numpy opendatasets pandas scikit-learn seaborn torch tqdm
 ```
-
-(Ghi chú: nếu bạn dùng `poetry` hoặc quản lý dependency khác, dùng công cụ tương ứng.)
 
 **Cấu trúc mô hình**
 
@@ -47,3 +44,4 @@ pip install ipykernel jupyter matplotlib numpy opendatasets pandas scikit-learn 
 
 - Chạy các file preprocess tương ứng cho 2 bài toán rồi chạy các cell 'transformer.ipynb', 'nlp-transformer-VLSP-v1-v2010c3d9978.ipynb' lần lượt.
 - Chú ý: data raw đã được tải sẵn, có thể tự tải lại nhưng phải cung cấp key kaggle
+```
